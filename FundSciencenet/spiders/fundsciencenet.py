@@ -8,7 +8,7 @@ from utils.common import get_md5
 class FundsciencenetSpider(scrapy.Spider):
     name = 'fundsciencenet'
     allowed_domains = ['fund.sciencenet.cn']
-    start_urls = ['http://fund.sciencenet.cn/search?submit=list&page=31']
+    start_urls = ['http://fund.sciencenet.cn/search?name=&code=&yearStart=&yearEnd=&subject=C06&category=&fundStart=&fundEnd=&submit=list']
 
     # "http://fund.sciencenet.cn/search?yearStart=2019&filter%5Bsubject%5D%5B0%5D=C&submit=list&page=1"
 
